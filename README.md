@@ -20,7 +20,7 @@
 
 ### Elements in JMeter:
 
-![Working of JMeter](./images/2.%20Elements%20in%20JMeter/1.%20elements%20in%20jmeter.png)
+![Elements in JMeter](./images/2.%20Elements%20in%20JMeter/1.%20elements%20in%20jmeter.png)
 
 Here **Thread Group** is an element.
 **Samplers** etc … are also elements.
