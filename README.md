@@ -77,7 +77,20 @@ All elements will come/created under Test plan.
 * in **Comments** you can write *explanation* or details or leave it *empty*.
 * In **Number** of threads we specify the Number of User Requests.
 * In **Ramp-up period** we specify the *frequency*, after how much time a user should send request. 
-  For e.g. we have 3 users, a user send a request now another user will wait 2 seconds to send request to that server.
+  For e.g. we have 3 users, so a user send a request now other users will send request after some time but not all at once.
+* **Ramp-up explained:**
+  Imagine you're running a race with your friends. If everyone starts running at the same time, it might be chaotic and crowded. But if you start the race with a "ramp-up period," it's like gradually letting everyone start running over a bit of time instead of all at once.
+  Here's a simple example:
+  Let's say you have 50 friends and you want to start a race. You decide on a ramp-up period of 10 seconds.
+    At 0 seconds: Nobody is running yet.
+    At 1 second: You and one friend start running.
+    At 2 seconds: Two more friends join the race.
+    At 3 seconds: Three more friends start running.
+    And so on…
+
+  By the time 10 seconds pass, all 50 friends are running the race. This gradual start helps avoid a big rush at the beginning, just like how in a real system, users might not all start using a website or app at the exact same moment.
+  In JMeter, you can set this ramp-up period to simulate how users gradually start using your website or application, helping you test how it performs under increasing levels of activity.
+  
 * The number of threads and ramp-up period represents **1 loop count**. For e.g. after the completion of requests from the users during the given time a loop is completed. Here we have given **1** loop count, you can give as many loop count here as you want. If you click **infinite** it will go on *forever*.
 
 
