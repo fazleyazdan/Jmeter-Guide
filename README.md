@@ -65,6 +65,16 @@ In configuration we define the common **variable** used in **Samplers**.
 
 All elements will come/created under Test plan.
 
+3. Create a Thread Group **(Users)**:
+
+* --> Right Click on the test plan --> Click Add --> Thread(users) --> Thread Group.
+
+![Elements in JMeter](./images/3.%20Create%20test%20plan/2.%20Add%20thread.png)
+
+
+
+
+
 
 
 
