@@ -53,6 +53,17 @@ In configuration we define the common **variable** used in **Samplers**.
 
 ![Elements in JMeter](./images/2.%20Elements%20in%20JMeter/5.%20Config%20Elements.png)
 
+### Creating First Test In JMeter:
+
+![Elements in JMeter](./images/3.%20Create%20test%20plan/1.%20steps%20to%20create%20JMeter%20test.png)
+
+1. Open JMeter:
+
+![Elements in JMeter](./images/3.%20Create%20test%20plan/open_JMeter.png)
+
+
+
+
 
 
 
