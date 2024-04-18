@@ -71,10 +71,14 @@ All elements will come/created under Test plan.
 
 ![Elements in JMeter](./images/3.%20Create%20test%20plan/2.%20Add%20thread.png)
 
+![Elements in JMeter](./images/3.%20Create%20test%20plan/3.%20Thread_menu.png)
 
-
-
-
+* Here in **Name** section specify the name of the thread Group. I have given *Thread Group*.
+* in **Comments** you can write *explanation* or details or leave it *empty*.
+* In **Number** of threads we specify the Number of User Requests.
+* In **Ramp-up period** we specify the *frequency*, after how much time a user should send request. 
+  For e.g. we have 3 users, a user send a request now another user will wait 2 seconds to send request to that server.
+* The number of threads and ramp-up period represents **1 loop count**. For e.g. after the completion of requests from the users during the given time a loop is completed. Here we have given **1** loop count, you can give as many loop count here as you want. If you click **infinite** it will go on *forever*.
 
 
 
