@@ -59,7 +59,14 @@ In configuration we define the common **variable** used in **Samplers**.
 
 1. Open JMeter:
 
+2. Test Plan is Auto created when you open JMeter. you can change the name of the test plan in **Name** section.
+
 ![Elements in JMeter](./images/3.%20Create%20test%20plan/open_JMeter.png)
+
+All elements will come/created under Test plan.
+
+
+
 
 
 
