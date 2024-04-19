@@ -85,17 +85,58 @@ All elements will come/created under Test plan.
   
   Let's say you have 50 friends and you want to start a race. You decide on a ramp-up period of 10 seconds.
     
-    At 0 seconds: Nobody is running yet.
-    At 1 second: You and one friend start running.
-    At 2 seconds: Two more friends join the race.
-    At 3 seconds: Three more friends start running.
-    And so on…
+   * At 0 seconds: Nobody is running yet.
+   * At 1 second: You and one friend start running.
+   * At 2 seconds: Two more friends join the race.
+   * At 3 seconds: Three more friends start running.
+   * And so on…
 
   By the time 10 seconds pass, all 50 friends are running the race. This gradual start helps avoid a big rush at the beginning, just like how in a real system, users might not all start using a website or app at the exact same moment.
   In JMeter, you can set this ramp-up period to simulate how users gradually start using your website or application, helping you test how it performs under increasing levels of activity.
   
 * The number of threads and ramp-up period represents **1 loop count**. For e.g. after the completion of requests from the users during the given time a loop is completed. Here we have given **1** loop count, you can give as many loop count here as you want. If you click **infinite** it will go on *forever*.
 
+4. Add a **Sampler**:
+
+Here we will add HTTP request type. (There are many Request Types)
+
+![Elements in JMeter](./images/3.%20Create%20test%20plan/4.%20add%20sampler.png)
+
+![Elements in JMeter](./images/3.%20Create%20test%20plan/5.%20sampler%20menu.png)
+
+*   In **Name** section we give name to our request.
+*   In **comment** section we add comments.
+*   We can leave the **Protocol** Section empty as it is already selected in this case it 'http'.
+*   **Server Name or IP:** we write the IP .For e.g. I am using website to send request. *https://jmeter.apache.org/index.html*. 
+*   Keep in mind that we will only write this *'jmeter.apache.org'* in server or IP.
+*   If there is a route in this case it is 'index.html' we will write it in Path section. Remember if there is no route. '/'    represents home page of web.
+*   **HTTP Request:** represent the type of request call. Here we are using 'GET'.
+*   After this click on **'Add'** button below to add sampler.
+
+5. Add **Listeners:**
+
+*   Here we will add **3 types of listeners** to generate report. (They are popular)
+
+![Elements in JMeter](./images/3.%20Create%20test%20plan/6.%20add%20listener.png)
+
+![Elements in JMeter](./images/3.%20Create%20test%20plan/7.%20listener%20menu.png)
+
+6. After that click save the test plan. Click **save** icon
+
+7. Then run it. By clicking the **Start Icon**
+
+8. After that switch to the **Result Tree** or **Summary Report** or **View result tree in table** to view the result of the requests.they will appear below the **Requests**.
+
+#### View Report **Menu**:
+
+![Elements in JMeter](./images/3.%20Create%20test%20plan/8.%20view%20report.png)
+
+    • Here as you can see all of my requests are successful.
+    • You can clear the result by clicking on the 'clear all' icon.
+
+#### View Report in Table **Menu**
+
+![Elements in JMeter](./images/3.%20Create%20test%20plan/9.%20view%20report%20in%20table.png)
 
 
 
@@ -106,4 +147,4 @@ All elements will come/created under Test plan.
 
 
 
-
+*
