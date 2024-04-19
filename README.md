@@ -127,7 +127,7 @@ Here we will add HTTP request type. (There are many Request Types)
 
 8. After that switch to the **Result Tree** or **Summary Report** or **View result tree in table** to view the result of the requests.they will appear below the **Requests**.
 
-#### View Report **Menu**:
+#### View Result Tree **Menu**:
 
 ![Elements in JMeter](./images/3.%20Create%20test%20plan/8.%20view%20report.png)
 
@@ -138,7 +138,9 @@ Here we will add HTTP request type. (There are many Request Types)
 
 ![Elements in JMeter](./images/3.%20Create%20test%20plan/9.%20view%20report%20in%20table.png)
 
+* Here 'Latency' represents the time it took for user request to hit the server.
 
+* 'Connection time' represents the time a user took in establishing the connection with the server.
 
 
 
