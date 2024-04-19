@@ -1,8 +1,13 @@
 
 ## Outline:
 - [About JMeter](#about-jmeter)
-- [Elements in Jmeter](#jmeter-elements)
-- 
+- [Elements in JMeter](#jmeter-elements)
+*   - [Thread Group](#thread-group)
+*   - [Sampler](#samplers)
+*   - [Listeners](#listeners)
+*   - [Configuration](#config)
+
+
 
 <a id="about-jmeter"></a>
 ### What is JMeter :
@@ -24,6 +29,7 @@
 ![Working of JMeter](./images/1.%20JMeter/3.%20Jmeter_working.png)
 
 <a id="jmeter-elements"></a>
+
 ### Elements in JMeter:
 
 ![Elements in JMeter](./images/2.%20Elements%20in%20JMeter/1.%20elements%20in%20jmeter.png)
@@ -38,21 +44,29 @@ Then we have Sub Elements Like **Request**, **publisher** etc.
 * **Listeners**
 * **Configuration**
 
+<a id="thread-group"></a>
+
 #### Thread Group:
 Each **Thread** Represents a **user/ user request**
 
 ![Elements in JMeter](./images/2.%20Elements%20in%20JMeter/2.%20Thread%20group.png)
+
+<a id="sampler"></a>
 
 #### Sampler:
 Now what kind of **request** a user can Send. So **sampler** represents different **types** of requests Sent By Thread Group.
 
 ![Elements in JMeter](./images/2.%20Elements%20in%20JMeter/3.%20Samplers.png)
 
+<a id="listener"></a>
+
 #### Listeners:
 
 So Listeners will generate **Report** in Graph, table format etc.
 
 ![Elements in JMeter](./images/2.%20Elements%20in%20JMeter/4.%20Listeners.png)
+
+<a id="config"></a>
 
 #### Configuration element:
 In configuration we define the common **variable** used in **Samplers**.
