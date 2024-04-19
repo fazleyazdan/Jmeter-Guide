@@ -2,10 +2,10 @@
 ## Outline:
 - [About JMeter](#about-jmeter)
 - [Elements in JMeter](#jmeter-elements)
-*   - [Thread Group](#thread-group)
-*   - [Sampler](#samplers)
-*   - [Listeners](#listeners)
-*   - [Configuration](#config)
+   - [Thread Group](#thread-group)
+   - [Sampler](#samplers)
+   - [Listeners](#listeners)
+   - [Configuration](#config)
 
 
 
