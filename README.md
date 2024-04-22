@@ -182,6 +182,30 @@ to create **Constant Timer** on thread level :
 
 ![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/4.%20const%20timer%20menu.png)
 
+Here I have given 3 seconds for each request at thread level. So it will take min 9 seconds (more or less) to complete those requests. It can take more than this time as well.
+
+![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/5.%20listner%20after%20adding%20timer.png)
+
+* If you create timer at both the *thread* & *sampler* level then both the thread level & sampler level timer
+Will be applied to that specific sampler(request). 
+* Here I have created timer at sampler level for the first request.
+
+#### Adding constant timer for a specific request:
+
+Note: for the request both timer will be applied, the thread timer as well as self timer of the request.
+
+![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/6.%20adding%20timer%202.png)
+
+Since we have defined timer for the first sampler/request, it will start after 6 seconds. Because both the timers are triggered for it. (6+3+3 = 12s) more or less
+
+![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/7.%20listner%20after%20adding%20timer%202.png)
+
+**NOTE:** We can also 'Disable' Requests and timer by right clicking on these elements & click disable option.
+
+
+
+
+
 
 
 
