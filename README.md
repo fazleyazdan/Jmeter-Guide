@@ -10,6 +10,7 @@
 
 
 <a id="about-jmeter"></a>
+
 ### What is JMeter :
 
 ![JMeter](./images/1.%20JMeter/1.%20Jmeter.png)
@@ -135,7 +136,7 @@ Here we will add HTTP request type. (There are many Request Types)
 
 5. Add **Listeners:**
 
-*   Here we will add **3 types of listeners** to generate report. (They are popular)
+    *   Here we will add **3 types of listeners** to generate report. (They are popular)
 
 ![Elements in JMeter](./images/3.%20Create%20test%20plan/6.%20add%20listener.png)
 
@@ -162,6 +163,24 @@ Here we will add HTTP request type. (There are many Request Types)
 
 * 'Connection time' represents the time a user took in establishing the connection with the server.
 
+### Timers in JMeter :
+
+![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/1.%20timers.png)
+
+![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/2.%20types%20of%20timers.png)
+
+Most of the times we will use Constant & Uniform Random Timer. They are the Most popular.
+
+1. **Constant Timer**
+
+* You can add Timers on thread level as well as sampler level.
+* If you have created timers on thread level then it will be applied to all the requests inside the thread.
+
+to create **Constant Timer** on thread level :
+
+![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/3.%20add%20const%20timer.png)
+
+![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/4.%20const%20timer%20menu.png)
 
 
 
@@ -169,4 +188,3 @@ Here we will add HTTP request type. (There are many Request Types)
 
 
 
-*
