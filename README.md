@@ -202,6 +202,37 @@ Since we have defined timer for the first sampler/request, it will start after 6
 
 **NOTE:** We can also 'Disable' Requests and timer by right clicking on these elements & click disable option.
 
+2. **Uniform Random Timer**
+
+In Uniform Random timer we will send a request at random time.
+
+**Example:** we sent a request after 3 seconds. Another request will send after 5 seconds.
+Meaning the request sending time will not be same for all requests, it will be random.
+
+* Formula for Uniform Random based on which delay time for requests are calculated:
+
+![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/8.%20uniform%20random%20timer.png)
+
+In JMeter, the Uniform Random Timer is a timer that adds a random delay before each sampler (HTTP request, JDBC request, etc.) executes. 
+This random delay helps simulate more realistic user behavior by introducing variability in the timing of requests. Now, let's break down the two parameters you mentioned:
+
+      Constant Delay Offset: This is the minimum amount of time, in milliseconds, that the timer will wait before each sampler executes. It's called "constant" because this delay remains the same for each request. For example, if you set the Constant Delay Offset to 500 milliseconds, each sampler will wait at least 500 milliseconds before executing.
+      
+      Random Delay Maximum: This parameter specifies the maximum additional time, in milliseconds, that the timer may wait before executing a sampler. It adds randomness to the delay. For instance, if you set the Random Delay Maximum to 1000 milliseconds, the timer will randomly choose a delay between 0 milliseconds and 1000 milliseconds to add to the constant delay offset.
+
+Here's an example to illustrate how these parameters work together:
+  • Constant Delay Offset: 5000 milliseconds
+  • Random Delay Maximum: 1000 milliseconds
+
+When you use this timer, each sampler will wait at least 5000 milliseconds (the constant delay offset), plus an additional random delay between 0 and 1000 milliseconds (the random delay maximum), before executing.
+So, if the timer randomly selects 700 milliseconds as the additional delay for a particular sampler, that sampler will wait a total of 500 milliseconds (constant) + 700 milliseconds (random) = 1200 milliseconds before executing.
+
+In summary, the Constant Delay Offset provides a fixed minimum delay, while the Random Delay Maximum adds variability by introducing a random delay on top of the minimum delay. Together, they help create a more realistic load on your system under test.
+
+
+
+
+
 
 
 
