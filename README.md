@@ -6,7 +6,9 @@
    - [Sampler](#samplers)
    - [Listeners](#listeners)
    - [Configuration](#config)
-
+- [Timers in JMeter](#jmeter-timer)
+   - [Constant Timer](#const-timer)
+   - [Uniform Random Timer](#uniform-timer)
 
 
 <a id="about-jmeter"></a>
@@ -163,6 +165,8 @@ Here we will add HTTP request type. (There are many Request Types)
 
 * 'Connection time' represents the time a user took in establishing the connection with the server.
 
+<a id="jmeter-timer"></a>
+
 ### Timers in JMeter :
 
 ![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/1.%20timers.png)
@@ -170,6 +174,8 @@ Here we will add HTTP request type. (There are many Request Types)
 ![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/2.%20types%20of%20timers.png)
 
 Most of the times we will use Constant & Uniform Random Timer. They are the Most popular.
+
+<a id="const-timer"></a>
 
 1. **Constant Timer**
 
@@ -188,9 +194,10 @@ Here I have given 3 seconds for each request at thread level. So it will take mi
 
 * If you create timer at both the *thread* & *sampler* level then both the thread level & sampler level timer
 Will be applied to that specific sampler(request). 
-* Here I have created timer at sampler level for the first request.
 
 #### Adding constant timer for a specific request:
+
+Here I have created timer at sampler level for the first request.
 
 Note: for the request both timer will be applied, the thread timer as well as self timer of the request.
 
@@ -201,6 +208,8 @@ Since we have defined timer for the first sampler/request, it will start after 6
 ![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/7.%20listner%20after%20adding%20timer%202.png)
 
 **NOTE:** We can also 'Disable' Requests and timer by right clicking on these elements & click disable option.
+
+<a id="uniform-timer"></a>
 
 2. **Uniform Random Timer**
 
