@@ -238,6 +238,26 @@ So, if the timer randomly selects 700 milliseconds as the additional delay for a
 
 In summary, the Constant Delay Offset provides a fixed minimum delay, while the Random Delay Maximum adds variability by introducing a random delay on top of the minimum delay. Together, they help create a more realistic load on your system under test.
 
+* **Adding uniform random timer on thread level:**
+
+![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/10.%20adding%20uniform%20random%20timer.png)
+
+![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/11.uniform%20random%20timer%20menu.png)
+
+3. Other Timers :
+
+![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/9.%20other%20timers.png)
+
+
+## Controllers in JMeter:
+
+![Timer in JMeter](./images/5.%20controller%20in%20JMeter/1.%20controller%20in%20jmeter.png)
+
+1. **Loop Controller**
+
+![Timer in JMeter](./images/5.%20controller%20in%20JMeter/2.%20loop%20controller.png)
+
+
 
 
 
