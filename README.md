@@ -9,6 +9,10 @@
 - [Timers in JMeter](#jmeter-timer)
    - [Constant Timer](#const-timer)
    - [Uniform Random Timer](#uniform-timer)
+     - [Uniform Random Timer Explained](#uniform-explained)
+   - [Other Timers in JMeter](#other-timer)
+- [Controllers in JMeter](#jmeter-controller)
+
 
 
 <a id="about-jmeter"></a>
@@ -222,6 +226,8 @@ Meaning the request sending time will not be same for all requests, it will be r
 
 ![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/8.%20uniform%20random%20timer.png)
 
+<a id="uniform-explained"></a>
+
 In JMeter, the Uniform Random Timer is a timer that adds a random delay before each sampler (HTTP request, JDBC request, etc.) executes. 
 This random delay helps simulate more realistic user behavior by introducing variability in the timing of requests. Now, let's break down the two parameters you mentioned:
 
@@ -244,10 +250,13 @@ In summary, the Constant Delay Offset provides a fixed minimum delay, while the 
 
 ![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/11.uniform%20random%20timer%20menu.png)
 
+<a id="other-timer"></a>
+
 3. Other Timers :
 
 ![Timer in JMeter](./images/4.%20Timers%20in%20JMeter/9.%20other%20timers.png)
 
+<a id="jmeter-controller"></a>
 
 ## Controllers in JMeter:
 
