@@ -257,7 +257,17 @@ In summary, the Constant Delay Offset provides a fixed minimum delay, while the 
 
 ![Timer in JMeter](./images/5.%20controller%20in%20JMeter/2.%20loop%20controller.png)
 
+On the thread level when we specify the loop count, it is **applicable** to all the samplers/requests.
+Now to send a request a **specific** number of times we use loop controllers.
 
+* **Adding loop controller :**
+
+![Timer in JMeter](./images/5.%20controller%20in%20JMeter/3.%20adding%20loop%20controller.png)
+
+* Here I have added loop controller to **'wpct home'** request , that it should execute **2 times.**
+* Add **'controller'** on the thread level then you can add **specific samplers** to it.
+
+![Timer in JMeter](./images/5.%20controller%20in%20JMeter/4.%20loop%20controller%20menu.png)
 
 
 
