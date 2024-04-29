@@ -278,9 +278,19 @@ Now to send a request a **specific** number of times we use loop controllers.
 
 ![Timer in JMeter](./images/5.%20controller%20in%20JMeter/4.%20loop%20controller%20menu.png)
 
-**NOTE:** if you add loop on the thread level as well as individual loops, then both the loops will be applied to the request.
+* **NOTE:** if you add loop on the thread level as well as individual loops, then both the loops will be applied to the request.
 
 ![Timer in JMeter](./images/5.%20controller%20in%20JMeter/5.%20adding%20request%20to%20controller.png)
+
+* you can add the request to the controller by drag & drop.
+
+* Now run the program & note that 'wpct home' is executed two times.
+
+![Timer in JMeter](./images/5.%20controller%20in%20JMeter/6.%20result%20after%20adding%20the%20controller.png)
+
+* You can also add *Listeners* to the individual requests. Then only the result of that request will be shown in the listeners.
+
+![Timer in JMeter](./images/5.%20controller%20in%20JMeter/7.%20listener%20with%20specific%20request.png)
 
 
 
