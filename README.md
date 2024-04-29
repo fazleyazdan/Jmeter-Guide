@@ -12,6 +12,8 @@
      - [Uniform Random Timer Explained](#uniform-explained)
    - [Other Timers in JMeter](#other-timer)
 - [Controllers in JMeter](#jmeter-controller)
+   - [Loop Controller](#control-loop)
+
 
 
 
@@ -261,6 +263,8 @@ In summary, the Constant Delay Offset provides a fixed minimum delay, while the 
 ## Controllers in JMeter:
 
 ![Timer in JMeter](./images/5.%20controller%20in%20JMeter/1.%20controller%20in%20jmeter.png)
+
+<a id="control-loop"></a>
 
 1. **Loop Controller**
 
