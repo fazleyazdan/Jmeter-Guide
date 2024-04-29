@@ -278,6 +278,9 @@ Now to send a request a **specific** number of times we use loop controllers.
 
 ![Timer in JMeter](./images/5.%20controller%20in%20JMeter/4.%20loop%20controller%20menu.png)
 
+**NOTE:** if you add loop on the thread level as well as individual loops, then both the loops will be applied to the request.
+
+![Timer in JMeter](./images/5.%20controller%20in%20JMeter/5.%20adding%20request%20to%20controller.png)
 
 
 
