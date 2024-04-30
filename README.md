@@ -296,7 +296,7 @@ Now to send a request a **specific** number of times we use loop controllers.
 
 ![Timer in JMeter](./images/5.%20controller%20in%20JMeter/7.%20listener%20with%20specific%20request.png)
 
-
+  
 
 
 
