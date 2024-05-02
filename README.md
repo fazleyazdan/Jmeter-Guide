@@ -296,8 +296,15 @@ Now to send a request a **specific** number of times we use loop controllers.
 
 ![Timer in JMeter](./images/5.%20controller%20in%20JMeter/7.%20listener%20with%20specific%20request.png)
 
-  
-  
+### Recording in Jmeter:
+
+![Timer in JMeter](./images/6.%20recording%20controller/1.%20recording%20in%20JMeter.png)
+
+* What are recorder used for in Jmeter?
+* So recorder records the transactions between the client & server, which consists of request & response.
+
+
+
 
 
 
