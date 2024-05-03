@@ -311,6 +311,19 @@ So first of all
 
 ![Timer in JMeter](./images/6.%20recording%20controller/2.%20adding%20non%20testEle.png)
 
+![Timer in JMeter](./images/6.%20recording%20controller/3.%20menu%20of%20nonTestEle.png)
+
+Here in **Port** , write the **port number** on which your browser will be running
+
+In **transaction name** write anything which is descriptive
+
+Write your desired value in **create new transaction after request.**
+
+2. Set proxy on browser:
+
+![Timer in JMeter](./images/6.%20recording%20controller/)
+
+
 
 
 
