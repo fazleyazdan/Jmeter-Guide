@@ -321,7 +321,18 @@ Write your desired value in **create new transaction after request.**
 
 2. Set proxy on browser:
 
+In search menu type **internet options**. Click on it and then go to **Connection** --> click **LAN Setting**
+
+![Timer in JMeter](./images/6.%20recording%20controller/4.%20browser%20proxy.png)
+
+* Give the same port number as in Jmeter. Which was '8888' in my case
+
+* Since we are running Jmeter on localhost. So address will be the same.
+
+
+
 ![Timer in JMeter](./images/6.%20recording%20controller/)
+
 
 
 
