@@ -326,15 +326,34 @@ In search menu type **internet options**. Click on it and then go to **Connectio
 ![Timer in JMeter](./images/6.%20recording%20controller/4.%20browser%20proxy.png)
 
 * Give the same port number as in Jmeter. Which was '8888' in my case
-
 * Since we are running Jmeter on localhost. So address will be the same.
 
+3. Add recording controllers
 
+![Timer in JMeter](./images/6.%20recording%20controller/5.%20adding%20recording%20cntrl.png)
 
-![Timer in JMeter](./images/6.%20recording%20controller/)
+* Add two recording controllers one for **Registration** & other for **login**. as we will do record for these two.
 
+![Timer in JMeter](./images/6.%20recording%20controller/6.%20menu%20of%20rec%20control.png)
 
+* Now as we have added the controllers, we have to start them.
+* Go to Http test script. Expand target controllers.
 
+![Timer in JMeter](./images/6.%20recording%20controller/7.%20select%20controller.png)
+
+* Here as you can see , now click on the 'registration' or 'login'.
+* Start the recording by clicking on the 'start' icon, & go to the web page. The transactions will be recorded under the   Registration recording controller.
+* Also stop recording after login or registration.
+
+![Timer in JMeter](./images/6.%20recording%20controller/8.%20start%20recording%20cntrlr.png)
+
+* The request recorded will be shown below the respective **recording controller**
+
+![Timer in JMeter](./images/6.%20recording%20controller/9.%20registration%20list.png)
+
+* Add a listener on a thread level, to see which of the requests are failing and passing
+
+![Timer in JMeter](./images/6.%20recording%20controller/99.%20result%20tree%20after%20adding%20listener.png)
 
 
 
