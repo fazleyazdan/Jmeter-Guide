@@ -355,6 +355,8 @@ In search menu type **internet options**. Click on it and then go to **Connectio
 
 ![Timer in JMeter](./images/6.%20recording%20controller/99.%20result%20tree%20after%20adding%20listener.png)
 
+#### Simple Controllers:
+
 
 
 
