@@ -14,6 +14,8 @@
 - [Controllers in JMeter](#jmeter-controller)
    - [Loop Controller](#control-loop)
    - [Recording Controller](#jmeter-record)
+   - [Simple Controller](#simple-controller)
+
 
 
 
@@ -354,6 +356,8 @@ In search menu type **internet options**. Click on it and then go to **Connectio
 * Add a listener on a thread level, to see which of the requests are failing and passing
 
 ![Timer in JMeter](./images/6.%20recording%20controller/99.%20result%20tree%20after%20adding%20listener.png)
+
+<a id="simple-controller"></a>
 
 #### Simple Controllers:
 
