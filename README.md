@@ -15,6 +15,10 @@
    - [Loop Controller](#control-loop)
    - [Recording Controller](#jmeter-record)
    - [Simple Controller](#simple-controller)
+   - [Modular Controller](#module-controller)
+   - [Include Controller](#include-controller)
+
+
 
 
 
