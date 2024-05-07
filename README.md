@@ -370,9 +370,10 @@ In search menu type **internet options**. Click on it and then go to **Connectio
 
 Simple controller is like a container which can have one or multiple requests.
 So basically the simple controller itself won't perform any actions. It is just a container & used to group the requests.
-**NOTE:** if there are samplers or listener etc.. inside the simple controller then it will be executed.
+* **NOTE:** if there are samplers or listener etc.. inside the simple controller then it will be executed.
 
 ![Timer in JMeter](./images/7.%20simple%20&%20module%20controllers/2.%20simple%20controller.png)
+
 
 
 
