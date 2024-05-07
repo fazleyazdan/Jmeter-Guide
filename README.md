@@ -360,9 +360,18 @@ In search menu type **internet options**. Click on it and then go to **Connectio
 
 ![Timer in JMeter](./images/6.%20recording%20controller/99.%20result%20tree%20after%20adding%20listener.png)
 
+#### Using these things collectively
+
+![Timer in JMeter](./images/7.%20simple%20&%20module%20controllers/1.%20Controllers.png)
+
 <a id="simple-controller"></a>
 
 #### Simple Controllers:
+
+Simple controller is like a container which can have one or multiple requests.
+So basically the simple controller itself won't perform any actions. It is just a container & used to group the requests.
+**NOTE:** if there are samplers or listener etc.. inside the simple controller then it will be executed.
+
 
 
 
