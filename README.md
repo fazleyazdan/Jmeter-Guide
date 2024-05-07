@@ -267,45 +267,45 @@ In summary, the Constant Delay Offset provides a fixed minimum delay, while the 
 
 ## Controllers in JMeter:
 
-![Timer in JMeter](./images/5.%20controller%20in%20JMeter/1.%20controller%20in%20jmeter.png)
+![Controllers in JMeter](./images/5.%20controller%20in%20JMeter/1.%20controller%20in%20jmeter.png)
 
 <a id="control-loop"></a>
 
 1. **Loop Controller**
 
-![Timer in JMeter](./images/5.%20controller%20in%20JMeter/2.%20loop%20controller.png)
+![Controllers in JMeter](./images/5.%20controller%20in%20JMeter/2.%20loop%20controller.png)
 
 On the thread level when we specify the loop count, it is **applicable** to all the samplers/requests.
 Now to send a request a **specific** number of times we use loop controllers.
 
 * **Adding loop controller :**
 
-![Timer in JMeter](./images/5.%20controller%20in%20JMeter/3.%20adding%20loop%20controller.png)
+![Controllers in JMeter](./images/5.%20controller%20in%20JMeter/3.%20adding%20loop%20controller.png)
 
 * Here I have added loop controller to **'wpct home'** request , that it should execute **2 times.**
 * Add **'controller'** on the thread level then you can add **specific samplers** to it.
 
-![Timer in JMeter](./images/5.%20controller%20in%20JMeter/4.%20loop%20controller%20menu.png)
+![Controllers in JMeter](./images/5.%20controller%20in%20JMeter/4.%20loop%20controller%20menu.png)
 
 * **NOTE:** if you add loop on the thread level as well as individual loops, then both the loops will be applied to the request.
 
-![Timer in JMeter](./images/5.%20controller%20in%20JMeter/5.%20adding%20request%20to%20controller.png)
+![Controllers in JMeter](./images/5.%20controller%20in%20JMeter/5.%20adding%20request%20to%20controller.png)
 
 * you can add the request to the controller by drag & drop.
 
 * Now run the program & note that 'wpct home' is executed two times.
 
-![Timer in JMeter](./images/5.%20controller%20in%20JMeter/6.%20result%20after%20adding%20the%20controller.png)
+![Controllers in JMeter](./images/5.%20controller%20in%20JMeter/6.%20result%20after%20adding%20the%20controller.png)
 
 * You can also add *Listeners* to the individual requests. Then only the result of that request will be shown in the listeners.
 
-![Timer in JMeter](./images/5.%20controller%20in%20JMeter/7.%20listener%20with%20specific%20request.png)
+![Controllers in JMeter](./images/5.%20controller%20in%20JMeter/7.%20listener%20with%20specific%20request.png)
 
 <a id="jmeter-record"></a>
 
 ### Recording in Jmeter:
 
-![Timer in JMeter](./images/6.%20recording%20controller/1.%20recording%20in%20JMeter.png)
+![Recording in JMeter](./images/6.%20recording%20controller/1.%20recording%20in%20JMeter.png)
 
 * What are recorder used for in Jmeter?
 * So recorder records the transactions between the client & server, which consists of request & response.
