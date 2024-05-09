@@ -371,12 +371,23 @@ In search menu type **internet options**. Click on it and then go to **Connectio
 Simple controller is like a container which can have one or multiple requests.
 So basically the simple controller itself won't perform any actions. It is just a container & used to group the requests.
 * **NOTE:** if there are samplers or listener etc.. inside the simple controller then it will be executed.
+* To add: right click thread group --> add--> logic controllers --> simple controller 
 
 ![Timer in JMeter](./images/7.%20simple%20&%20module%20controllers/2.%20simple%20controller.png)
 
+#### Modular controller:
+Modular controller is used to call other controllers
+* To add: right click thread group --> add--> logic controllers --> modular controller
 
+![Timer in JMeter](./images/7.%20simple%20&%20module%20controllers/3.%20module%20controller.png)
 
+* Here as you can see i have called the simple controller from the module controller
 
+#### Test Fragment:
+Test Fragment is also a container. It is an alternative of Simple Controller.
+* To add: right click thread group --> add--> test fragment
+
+#### Random Controller:
 
 
 
