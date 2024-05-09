@@ -379,13 +379,17 @@ So basically the simple controller itself won't perform any actions. It is just 
 Modular controller is used to call other controllers
 * To add: right click thread group --> add--> logic controllers --> modular controller
 
-![Timer in JMeter](./images/7.%20simple%20&%20module%20controllers/3.%20module%20controller.png)
+![Timer in JMeter](./images/7.%20simple%20&%20module%20controllers/6.%20module%20cntrl%20menu.png)
 
 * Here as you can see i have called the simple controller from the module controller
 
 #### Test Fragment:
 Test Fragment is also a container. It is an alternative of Simple Controller.
 * To add: right click thread group --> add--> test fragment
+
+![Timer in JMeter](./images/7.%20simple%20&%20module%20controllers/4.%20test%20fragment.png)
+
+![Timer in JMeter](./images/7.%20simple%20&%20module%20controllers/5.%20TestFrag%20menu.png)
 
 #### Include Controller:  
 Include controller is used to call exported requests or scripts.
@@ -397,9 +401,29 @@ If we put multiple requests in random controller it will select one request rand
 In the below example we have added 2 request under random controller & it will select one request randomly.
 * To add: right click thread group --> add--> logic controllers --> random controller
 
+![Timer in JMeter](./images/8.%20random%20&%20rand%20order%20controller/1.rand%20controller.png)
 
+* Here as you can see, b/w register & login request one is executed randomly.
 
+#### Random Order Controller:
+Random Order controller will execute all requests inside it but in random order.
+* To add: right click thread group --> add--> logic controllers --> Random Order controller
 
+In the below example we have 3 request added to random order controller. Which is executed randomly.
+
+![Timer in JMeter](./images/8.%20random%20&%20rand%20order%20controller/2.%20rand%20order%20controller.png)
+
+#### Interleave Controller:
+If there are 2 requests inside the interleave controller. And the loop count is 2 for that thread group.
+Then in first loop count the first request will be executed. Now in second round the second request in order, will be executed
+And the first will be ignored because it has already executed.
+
+* To add: right click thread group --> add--> logic controllers --> Interleave controller
+
+![Timer in JMeter](./images/8.%20random%20&%20rand%20order%20controller/3.%20interleave%20controller.png)
+
+Here as you can see in the above demo, in random controller there is a chance of request to be executed again,
+But in interleave controller the request executed won't be executed again.
 
 
 
