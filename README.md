@@ -387,7 +387,15 @@ Modular controller is used to call other controllers
 Test Fragment is also a container. It is an alternative of Simple Controller.
 * To add: right click thread group --> add--> test fragment
 
+#### Include Controller:  
+Include controller is used to call exported requests or scripts.
+Same like modular controller but you have to export the request in order to use it.
+* To add: right click thread group --> add--> logic controllers --> include controller
+
 #### Random Controller:
+If we put multiple requests in random controller it will select one request randomly out of all requests.
+In the below example we have added 2 request under random controller & it will select one request randomly.
+* To add: right click thread group --> add--> logic controllers --> random controller
 
 
 
