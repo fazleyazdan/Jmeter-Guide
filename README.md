@@ -451,8 +451,9 @@ Lets say we have 10 user in a thread group. Under the thread group we have 3 sam
 
 ![Timer in JMeter](./images/9.%20Throughput%20controllers/2.%20multiple%20thread%20group.png)
 
+* But there is a disadvantage , if the total number of users are changed then we will have to distribute the users again.
+Meaning we have to change the number of users per thread group.
 
-
-
+* Solution to the above problem is **throughput controller.** Throughput controllers are used for distributing load.
 
 
