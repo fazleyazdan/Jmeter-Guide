@@ -18,6 +18,7 @@
    - [Modular Controller](#module-controller)
    - [Include Controller](#include-controller)
    - [Interleave Controller](#inter-controller)
+   - [ThroughPut Controller](#through-controller)
 - [Test Fragment](#test-frag)
    
 
@@ -434,6 +435,8 @@ And the first will be ignored because it has already executed.
 
 Here as you can see in the above demo, in random controller there is a chance of request to be executed again,
 But in interleave controller the request executed won't be executed again.
+
+<a id="through-controller"></a>
 
 #### Throughput Controller
 
