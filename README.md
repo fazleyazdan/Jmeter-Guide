@@ -17,7 +17,9 @@
    - [Simple Controller](#simple-controller)
    - [Modular Controller](#module-controller)
    - [Include Controller](#include-controller)
+   - [Interleave Controller](#inter-controller)
 - [Test Fragment](#test-frag)
+   
 
 
 
@@ -375,6 +377,8 @@ So basically the simple controller itself won't perform any actions. It is just 
 
 ![Timer in JMeter](./images/7.%20simple%20&%20module%20controllers/2.%20simple%20controller.png)
 
+<a id="module-controller"></a>
+
 #### Modular controller:
 Modular controller is used to call other controllers
 * To add: right click thread group --> add--> logic controllers --> modular controller
@@ -383,6 +387,8 @@ Modular controller is used to call other controllers
 
 * Here as you can see i have called the simple controller from the module controller
 
+<a id="test-frag"></a>
+
 #### Test Fragment:
 Test Fragment is also a container. It is an alternative of Simple Controller.
 * To add: right click thread group --> add--> test fragment
@@ -390,6 +396,8 @@ Test Fragment is also a container. It is an alternative of Simple Controller.
 ![Timer in JMeter](./images/7.%20simple%20&%20module%20controllers/4.%20test%20fragment.png)
 
 ![Timer in JMeter](./images/7.%20simple%20&%20module%20controllers/5.%20TestFrag%20menu.png)
+
+<a id="include-controller"></a>
 
 #### Include Controller:  
 Include controller is used to call exported requests or scripts.
@@ -412,6 +420,8 @@ Random Order controller will execute all requests inside it but in random order.
 In the below example we have 3 request added to random order controller. Which is executed randomly.
 
 ![Timer in JMeter](./images/8.%20random%20&%20rand%20order%20controller/2.%20rand%20order%20controller.png)
+
+<a id="inter-controller"></a>
 
 #### Interleave Controller:
 If there are 2 requests inside the interleave controller. And the loop count is 2 for that thread group.
