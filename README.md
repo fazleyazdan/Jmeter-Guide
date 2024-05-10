@@ -404,6 +404,7 @@ Test Fragment is also a container. It is an alternative of Simple Controller.
 Include controller is used to call exported requests or scripts.
 Same like modular controller but you have to export the request in order to use it.
 * To add: right click thread group --> add--> logic controllers --> include controller
+* to export the request : right click sampler --> save as test fragment
 
 #### Random Controller:
 If we put multiple requests in random controller it will select one request randomly out of all requests.
