@@ -435,10 +435,18 @@ And the first will be ignored because it has already executed.
 Here as you can see in the above demo, in random controller there is a chance of request to be executed again,
 But in interleave controller the request executed won't be executed again.
 
+#### Throughput Controller
 
+Throughput controller are used for distributed load test.
+Lets say we have 10 user in a thread group. Under the thread group we have 3 samplers. [home, about us, apply now]
 
+![Timer in JMeter](./images/9.%20Throughput%20controllers/1.%20thread%20group.png)
 
+* Now all the 10 users will send requests to all the 3 samplers.
+* Now if you want 2 user to send req to the 'home' page, 3 user to 'about-us' page & 5 users to 'apply now' page.
+* One solution is to make multiple thread groups, specify the number of users in it and then put specific sampler under that thread group.
 
+![Timer in JMeter](./images/9.%20Throughput%20controllers/2.%20multiple%20thread%20group.png)
 
 
 
