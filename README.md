@@ -457,4 +457,20 @@ Meaning we have to change the number of users per thread group.
 
 * Solution to the above problem is **throughput controller.** Throughput controllers are used for distributing load.
 
+![Timer in JMeter](./images/9.%20Throughput%20controllers/3.%20throughput%20controller.png)
 
+* we have 10 users in thread group
+* Here I have created 3 throughput controllers under which I have kept the samplers.
+* Now I have selected percent execution for throughput contoller1 meaning (2 requests out of 10)
+* Similarly 30 percent for throughput contoller2 meaning (3 requests out of 10)
+* And 50 percent for throughput contoller3 meaning (5 requests out of 10)
+
+![Timer in JMeter](./images/9.%20Throughput%20controllers/4.%20aggregate%20report.png)
+
+One of the **advantages** of **throughput controller** is that if the total number of user changed then we don’t have
+To change throughput controllers because the users are distributed based on the percentage.
+
+Suppose I change the total number of users to 20. the load will be automatically distributed according to the percentage
+We have defined on throughput controller.
+
+![Timer in JMeter](./images/9.%20Throughput%20controllers/5.%20aggregate%20report%202.png)
