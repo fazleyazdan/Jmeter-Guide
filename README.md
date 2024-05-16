@@ -20,7 +20,13 @@
    - [Interleave Controller](#inter-controller)
    - [ThroughPut Controller](#through-controller)
 - [Test Fragment](#test-frag)
-   
+- [Parameterization](#parameter)
+   - [Internal parameters](#internal-parms)
+   - [User defined Variables](#user-defined)
+   - [Read Params Values for CSV/Excel](#csv-params)
+
+
+
 
 
 
@@ -475,9 +481,13 @@ We have defined on throughput controller.
 
 ![Timer in JMeter](./images/9.%20Throughput%20controllers/5.%20aggregate%20report%202.png)
 
+<a id="parameter"></a>
+
 ### Parameterization:
 
 ![Timer in JMeter](./images/10.%20parameterization/1.%20parameterization.png)
+
+<a id="internal-params"></a>
 
 #### 1. Jmeter Internal Parameterization:
 
@@ -486,6 +496,8 @@ We have defined on throughput controller.
 https://api.openweathermap.org/data/2.5/weather?q=Islamabad&appid=2896c9038a03da71c1c96f82c778ddb4
 
 * There are 2 queries here ,now to use it as an internal parameter , declare those in user defined variable
+
+<a id="user-defined"></a>
 
 #### User defined variables:
 
@@ -503,7 +515,18 @@ https://api.openweathermap.org/data/2.5/weather?q=Islamabad&appid=2896c9038a03da
 
 This is called internal parameterization in Jmeter. You can also store URL in a variable.
 
+<a id="csv-params"></a>
+
 #### 2. Read parameter values from CSV/Excel:
+
+![Timer in JMeter](./images/10.%20parameterization/6.%20add%20csv%20for%20external%20parameters.png)
+
+* Then browse the file which contain parameter values
+
+![Timer in JMeter](./images/10.%20parameterization/7.%20menu%20of%20add%20csv%20file%20.png)
+
+* Run your program you will be able to see the results in listener.
+
 
 
 
