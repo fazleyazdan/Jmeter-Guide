@@ -474,3 +474,38 @@ Suppose I change the total number of users to 20. the load will be automatically
 We have defined on throughput controller.
 
 ![Timer in JMeter](./images/9.%20Throughput%20controllers/5.%20aggregate%20report%202.png)
+
+### Parameterization:
+
+![Timer in JMeter](./images/10.%20parameterization/1.%20parameterization.png)
+
+#### 1. Jmeter Internal Parameterization:
+
+* When we use parameters which is defined in user variable in Jmeter, we call it internal Parameterization.
+* Here I have used this API , which contains parameters/queries. 
+https://api.openweathermap.org/data/2.5/weather?q=Islamabad&appid=2896c9038a03da71c1c96f82c778ddb4
+
+* There are 2 queries here ,now to use it as an internal parameter , declare those in user defined variable
+
+#### User defined variables:
+
+![Timer in JMeter](./images/10.%20parameterization/2.%20add%20user%20defined%20var.png)
+
+* below I have defined variables 
+
+![Timer in JMeter](./images/10.%20parameterization/3.%20menu%20user%20defined.png)
+
+* And then used it in the following request
+
+![Timer in JMeter](./images/10.%20parameterization/4.%20using%20internal%20parameters.png)
+
+![Timer in JMeter](./images/10.%20parameterization/5.%20send%20request.png)
+
+This is called internal parameterization in Jmeter. You can also store URL in a variable.
+
+#### 2. Read parameter values from CSV/Excel:
+
+
+
+
+
