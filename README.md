@@ -21,12 +21,9 @@
    - [ThroughPut Controller](#through-controller)
 - [Test Fragment](#test-frag)
 - [Parameterization](#parameter)
-   - [Internal parameters](#internal-parms)
+   - [Internal parameters](#internal-params)
    - [User defined Variables](#user-defined)
    - [Read Params Values for CSV/Excel](#csv-params)
-
-
-
 
 
 
@@ -528,7 +525,9 @@ This is called internal parameterization in Jmeter. You can also store URL in a 
 * Run your program you will be able to see the results in listener.
 
 
+### Correlation:
 
+In simple terms correlation is to capture specific value from the response of the request and then use it in another request.
 
 
 
