@@ -24,6 +24,8 @@
    - [Internal parameters](#internal-params)
    - [User defined Variables](#user-defined)
    - [Read Params Values for CSV/Excel](#csv-params)
+- [Correlation](#correlation)
+   - [Regular Expressions](#regexp)
 
 
 
@@ -524,10 +526,65 @@ This is called internal parameterization in Jmeter. You can also store URL in a 
 
 * Run your program you will be able to see the results in listener.
 
+<a id="correlation"></a>
 
 ### Correlation:
 
 In simple terms correlation is to capture specific value from the response of the request and then use it in another request.
+
+<a id="regexp"></a>
+
+**Regular expressions:**
+Regular expressions are the expressions created with the help of meta characters, xpath or tags which are used to fetch 
+Some matching values in the text.
+
+![Timer in JMeter](./images/11.%20correlation/1.%20correlation.png)
+
+![Timer in JMeter](./images/11.%20correlation/2.%20w_correlation.png)
+
+![Timer in JMeter](./images/11.%20correlation/3.%20req%20correlation.png)
+
+![Timer in JMeter](./images/11.%20correlation/4.%20how%20to%20use.png)
+
+
+* **Step 1:** create test plan
+
+* **Step 2:** add request.  Here I am requesting https://testautomationpractice.blogspot.com/
+
+* **Step 3:** now to capture specific response you have to write regular expression for it. There is a web to write regular expression for capturing specific text or value in response. https://testautomationpractice.blogspot.com/
+Paste the response there and then write regular expression for the specified response.
+
+![Timer in JMeter](./images/11.%20correlation/8.%20first%20req%20send.png)
+
+* **Step 4:** make a regular expression of the specified response you wants to use.
+
+![Timer in JMeter](./images/11.%20correlation/6.%20create%20regexp.png)
+
+* Here I have wrote regular expression for all the links I have received in response. But I want to use the 2nd link.
+
+* **Step 5:** add post processor (regular expression extractor) to the request
+
+![Timer in JMeter](./images/11.%20correlation/5.%20add%20reg%20express.png)
+
+![Timer in JMeter](./images/11.%20correlation/7.%20regexp%20menu.png)
+
+* In **Name** you can write name of your choice. Which will be used later in the second request.
+* In **regular expression** we write the expression we have made.
+* In **template** we write the group number. Here we only have one group so we wrote 1. if there were 2 groups then you can write $1$$2$.
+* In **Match No**, we write the specified response number that we wanna use. Since we have two links but I want to use the 2nd so I wrote 2.
+
+**Step 6:** now create second request and use the variable as a reference.
+
+![Timer in JMeter](./images/11.%20correlation/9.%20second%20req.png)
+
+* Here notice that I did not wrote anything in server name & just wrote in path. Because **referenceVar** contains the link of the site That we wants to visit. So no need to write anything in server name or IP.
+
+* Now send request and you will be able to see result.
+
+![Timer in JMeter](./images/11.%20correlation/10.%20view%20result.png)
+
+* Here as you can see the second request is successful. And it used the captured link to send request to it.
+
 
 
 
