@@ -148,7 +148,7 @@ Here we will add HTTP request type. (There are many Request Types)
 
 *   In **Name** section we give name to our request.
 *   In **comment** section we add comments.
-*   We can leave the **Protocol** Section empty as it is already selected in this case it 'http'.
+*   We can leave the **Protocol** Section empty as it is already selected in this case it is 'http'.
 *   **Server Name or IP:** we write the IP .For e.g. I am using website to send request. *https://jmeter.apache.org/index.html*. 
 *   Keep in mind that we will only write this *'jmeter.apache.org'* in server or IP.
 *   If there is a route in this case it is 'index.html' we will write it in Path section. Remember if there is no route. '/'    represents home page of web.
