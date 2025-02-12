@@ -3,7 +3,7 @@
 - [About JMeter](#about-jmeter)
 - [Elements in JMeter](#jmeter-elements)
    - [Thread Group](#thread-group)
-   - [Sampler](#samplers)
+   - [Sampler](#sampler)
    - [Listeners](#listeners)
    - [Configuration](#config)
 - [Timers in JMeter](#jmeter-timer)
