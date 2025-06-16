@@ -155,7 +155,7 @@ Here we will add HTTP request type. (There are many Request Types)
 *   **HTTP Request:** represent the type of request call. Here we are using 'GET'.
 *   After this click on **'Add'** button below to add sampler.
 
-5. Add **Listeners:**
+5. Add **Listeners:** 
 
     *   Here we will add **3 types of listeners** to generate report. (They are popular)
 
