@@ -8,7 +8,7 @@
    - [Configuration](#config)
 - [Timers in JMeter](#jmeter-timer) 
    - [Constant Timer](#const-timer)
-   - [Uniform Random Timer](#uniform-timer)
+   - [Uniform Random Timer](#uniform-timer) 
      - [Uniform Random Timer Explained](#uniform-explained)
    - [Other Timers in JMeter](#other-timer)
 - [Controllers in JMeter](#jmeter-controller)
