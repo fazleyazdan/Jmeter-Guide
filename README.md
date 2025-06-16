@@ -6,7 +6,7 @@
    - [Sampler](#sampler)
    - [Listeners](#listeners)
    - [Configuration](#config)
-- [Timers in JMeter](#jmeter-timer) 
+- [Timers in JMeter](#jmeter-timer)  
    - [Constant Timer](#const-timer)
    - [Uniform Random Timer](#uniform-timer) 
      - [Uniform Random Timer Explained](#uniform-explained)
